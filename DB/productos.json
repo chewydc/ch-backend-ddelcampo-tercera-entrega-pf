@@ -1,0 +1,22 @@
+[
+  {
+    "nombre": "Regla",
+    "precio": "122.32",
+    "descripcion": "regla de 10 cm",
+    "codigo": "121354",
+    "Stock": "87",
+    "foto": "https://cdn3.iconfinder.com/data/icons/education-209/64/ruler-triangle-stationary-school-512.png",
+    "timestamp": "16/2/2022 19:13:26",
+    "id": 1
+  },
+  {
+    "nombre": "Mochila",
+    "precio": "1599",
+    "descripcion": "mochila",
+    "codigo": "5455",
+    "Stock": "10",
+    "foto": "https://cdn3.iconfinder.com/data/icons/education-209/64/bag-pack-container-school-128.png",
+    "timestamp": "23/11/2021 15:25:41",
+    "id": 2
+  }
+]

@@ -1,0 +1,106 @@
+[
+  {
+    "producto": [],
+    "timestamp": "23/11/2021 15:03:21",
+    "id": 1
+  },
+  {
+    "producto": [
+      {
+        "nombre": "Libretas",
+        "precio": 1466,
+        "descripcion": "Libreta A4",
+        "codigo": 1452,
+        "Stock": 85,
+        "foto": "https://cdn3.iconfinder.com/data/icons/education-209/64/book-note-paper-school-128.png",
+        "timestamp": "18/2/2022 21:16:57",
+        "id": 1
+      },
+      {
+        "nombre": "Calculadora",
+        "precio": 1255.65,
+        "descripcion": "Calculadora Cientifica",
+        "codigo": 1552,
+        "Stock": 10,
+        "foto": "https://cdn3.iconfinder.com/data/icons/education-209/64/calculator-math-tool-school-256.png",
+        "timestamp": "16/2/2022 19:19:16",
+        "id": 2
+      }
+    ],
+    "timestamp": "22/2/2022 09:25:49",
+    "id": 2
+  },
+  {
+    "producto": [],
+    "timestamp": "22/2/2022 09:26:01",
+    "id": 3
+  },
+  {
+    "producto": [
+      {
+        "nombre": "Calculadora",
+        "precio": 1255.65,
+        "descripcion": "Calculadora Cientifica",
+        "codigo": 1552,
+        "Stock": 10,
+        "foto": "https://cdn3.iconfinder.com/data/icons/education-209/64/calculator-math-tool-school-256.png",
+        "timestamp": "16/2/2022 19:19:16",
+        "id": 2
+      },
+      {
+        "nombre": "Mochila",
+        "precio": 12353,
+        "descripcion": "mochi",
+        "codigo": 54551,
+        "Stock": 10,
+        "foto": "https://cdn3.iconfinder.com/data/icons/education-209/64/bag-pack-container-school-128.png",
+        "timestamp": "18/2/2022 10:44:06",
+        "id": 3
+      }
+    ],
+    "timestamp": "22/2/2022 09:31:52",
+    "id": 4
+  },
+  {
+    "producto": [],
+    "timestamp": "22/2/2022 09:32:14",
+    "id": 5
+  },
+  {
+    "producto": [
+      {
+        "nombre": "Libretas",
+        "precio": 1466,
+        "descripcion": "Libreta A4",
+        "codigo": 1452,
+        "Stock": 85,
+        "foto": "https://cdn3.iconfinder.com/data/icons/education-209/64/book-note-paper-school-128.png",
+        "timestamp": "18/2/2022 21:16:57",
+        "id": 1
+      }
+    ],
+    "timestamp": "22/2/2022 09:37:59",
+    "id": 6
+  },
+  {
+    "producto": [],
+    "timestamp": "22/2/2022 09:38:20",
+    "id": 7
+  },
+  {
+    "producto": [
+      {
+        "nombre": "Calculadora",
+        "precio": 1255.65,
+        "descripcion": "Calculadora Cientifica",
+        "codigo": 1552,
+        "Stock": 10,
+        "foto": "https://cdn3.iconfinder.com/data/icons/education-209/64/calculator-math-tool-school-256.png",
+        "timestamp": "16/2/2022 19:19:16",
+        "id": 2
+      }
+    ],
+    "timestamp": "22/2/2022 10:21:46",
+    "id": 8
+  }
+]

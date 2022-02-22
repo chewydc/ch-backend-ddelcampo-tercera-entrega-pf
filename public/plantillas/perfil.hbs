@@ -1,0 +1,8 @@
+{{#each user_Info}}
+    <img  style="width:50%" src="http://localhost:8080/uploads/{{this.foto}}" class="rounded mx-auto d-block" onerror="this.src='http://localhost:8080/uploads/Default.png'">
+    <h3>{{this.nombre}}</h3>
+    <h5>Edad: {{this.edad}}</h5>
+    <h5>Direccion: {{this.direccion}}</h5>
+    <h5>Telefono: {{this.telefono}}</h5>
+    <h5>Email: <a class="font-italic">{{this.username}}</a></h5>
+{{/each}}

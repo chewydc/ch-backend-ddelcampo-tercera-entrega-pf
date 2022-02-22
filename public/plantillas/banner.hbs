@@ -1,0 +1,27 @@
+{{#if user}}
+<h3 class="alert alert-success">
+<ul class="list-inline">
+    <li class="list-inline-item">
+      <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" href="#" type="button" id="dropdownMenu"
+            data-bs-toggle="dropdown" aria-expanded="false">Menu</button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenu">
+            <!-- Button trigger modal -->
+            <button class="dropdown-item" type="button" data-bs-toggle="modal" onclick="cargaPerfil()"
+                data-bs-target="#ModalPerfil">Perfil</button>
+            <button class="dropdown-item" type="button" data-bs-toggle="modal" onclick="cargaCarrito()"
+                data-bs-target="#ModalCarrito">Abrir Carrito</button>
+            <button class="dropdown-item" type="button" data-bs-toggle="modal" onclick="cargaPaginaProd()"
+                data-bs-target="#ModalCarga">Cargar un Producto Nuevo</button>
+            <button class="dropdown-item" type="button" onclick="location.href='/logout-despedida'">Logout</button>
+        </div>
+    </div>
+    </li>
+    <li class="list-inline-item">
+        <a role="alert">Bienvenido <b class="alert-link">{{user}}</b></a>
+    </li>
+</ul>
+</h3>
+{{else}}
+<h3 class="alert alert-danger">No se encontro usuario</h3>
+{{/if}}

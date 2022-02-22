@@ -1,0 +1,22 @@
+<div class="jumbotron" class="rounded mx-auto d-block">
+    {{#if prods_carrito}} 
+    <div class="card-group">
+        {{#each prods_carrito}}
+                <div class="card">    
+                    <img style="width:50%" src={{this.foto}} class="rounded mx-auto d-block" alt="not found">
+                        <div class="card-body">
+                            <h3 class="card-title">{{this.nombre}}</h3> 
+                            <p class="price">${{this.precio}}</p>
+                            <p class="card-text">id de Producto: {{this.id}}</p>
+                            <p><button onclick="eliminarProdCarrito({{this.id}})">Eliminar del Carrito</button></p>
+                        </div>
+                </div>
+        {{/each}}
+    </div>
+        {{#if idCarrito}} 
+        <button type="submit" class="btn btn-success mt-3 mb-5" onclick="confirmarCarrito({{idCarrito}})">Confirmar Carrito</button>
+        {{/if}}    
+    {{else}}  
+        <h3 class="alert alert-danger">Vacio</h3>
+    {{/if}}
+</div>
